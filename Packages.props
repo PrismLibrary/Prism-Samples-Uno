@@ -1,0 +1,40 @@
+<Project>
+  <PropertyGroup>
+    <PrismVersion>8.1.97</PrismVersion>
+    <UnoVersion>3.7.4</UnoVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Prism.Core" Version="$(PrismVersion)" />
+    <PackageReference Update="Prism.Uno" Version="$(PrismVersion)" />
+    <PackageReference Update="Prism.DryIoc.Uno" Version="$(PrismVersion)" />
+    <PackageReference Update="Prism.Uno.WinUI" Version="$(PrismVersion)" />
+    <PackageReference Update="Prism.DryIoc.Uno.WinUI" Version="$(PrismVersion)" />
+    <PackageReference Update="Uno.UI" Version="$(UnoVersion)" />
+    <PackageReference Update="Uno.WinUI" Version="$(UnoVersion)" />
+    <PackageReference Update="Uno.Core" Version="2.3.0" />
+    <PackageReference Update="Uno.Microsoft.Xaml.Behaviors.Uwp.Managed" Version="2.0.3-uno.92" />
+    <PackageReference Update="Uno.Microsoft.Xaml.Behaviors.WinUI.Managed" Version="2.0.3-uno.92" />
+    <PackageReference Update="Microsoft.Xaml.Behaviors.Uwp.Managed" Version="2.0.1" />
+    <PackageReference Update="Microsoft.Xaml.Behaviors.WinUI.Managed" Version="2.0.3" />
+    <PackageReference Update="Uno.UI.RemoteControl" Version="$(UnoVersion)" />
+    <PackageReference Update="Uno.WinUI.RemoteControl" Version="$(UnoVersion)" />
+    <PackageReference Update="Uno.UniversalImageLoader" Version="1.9.33" />
+    <PackageReference Update="Microsoft.Extensions.Logging" Version="5.0.0" />
+    <PackageReference Update="Uno.Extensions.Logging.WebAssembly.Console" Version="1.0.1" />
+    <PackageReference Update="Uno.Extensions.Logging.OSLog " Version="1.0.1" />
+    <PackageReference Update="Microsoft.Extensions.Logging.Console" Version="5.0.0" />
+    <PackageReference Update="Microsoft.Extensions.Logging.Debug" Version="5.0.0" />
+    <PackageReference Update="Uno.UI.WebAssembly" Version="$(UnoVersion)" />
+    <PackageReference Update="Uno.WinUI.Skia.Gtk" Version="$(UnoVersion)" />
+    <PackageReference Update="Uno.WinUI.Skia.Wpf" Version="$(UnoVersion)" />
+    <PackageReference Update="Uno.WinUI.WebAssembly" Version="$(UnoVersion)" />
+    <PackageReference Update="Uno.Wasm.Bootstrap" Version="2.1.0" />
+    <PackageReference Update="Uno.Wasm.Bootstrap.DevServer" Version="2.1.0" />
+    <PackageReference Update="Microsoft.Windows.Compatibility" Version="5.0.2" />
+    <PackageReference Update="Microsoft.ProjectReunion" Version="0.5.7" />
+    <PackageReference Update="Microsoft.ProjectReunion.Foundation" Version="0.5.0" />
+    <PackageReference Update="Microsoft.ProjectReunion.WinUI" Version="0.5.7" />
+    <PackageReference Update="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.11" />
+  </ItemGroup>
+</Project>
